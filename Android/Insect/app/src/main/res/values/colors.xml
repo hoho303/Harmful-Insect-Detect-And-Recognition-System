@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorNoi">#EBEBEB</color>
+    <color name="colorNenThongTin">#F3F3F3</color>
+    <color name="colorLine">#B6B5B4</color>
+    <color name="colorToolBarThongTin">#FF985B</color>
+    <color name="colorPhuThongTin">#37818181</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorBlue">#0003FF</color>
+    <color name="colorDocThem">#4B70FF</color>
+    <color name="colorNau">#2C2727</color>
+    <color name="colorDanhSachBG">#80242424</color>
+</resources>

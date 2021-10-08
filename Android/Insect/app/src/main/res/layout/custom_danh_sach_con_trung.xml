@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frConTrung"
+    android:background="@drawable/custom_thong_tin"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="@dimen/dp10"
+    android:layout_marginRight="@dimen/dp10"
+    android:layout_marginTop="@dimen/dp5">
+        <ImageView
+            android:id="@+id/imgInsectThongTin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp150"
+            android:scaleType="fitXY"
+            android:background="@drawable/img2" />
+    <LinearLayout
+        android:background="@color/colorDanhSachBG"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp35"
+        android:paddingLeft="@dimen/dp5"
+        android:paddingStart="@dimen/dp5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/dp5">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtNameThongTin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên côn trùng: Grasshoper"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đọc thêm"
+                android:textSize="@dimen/sp13"
+                android:textColor="@color/colorDocThem"
+                android:textStyle="italic|bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtDacDiemThongTin"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp12"
+            android:text="Là loại động vật thân mềm, con trưởng thành có thể cao 7cm và dài 20cm. Nó mang trên mình một cái vỏ hình xoắn ốc có độ cao gần bằng 2 lần độ cao của nó. Chủ yếu người ta thấy vỏ của ốc sên hầu hết có màu nâu."
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+</FrameLayout>
